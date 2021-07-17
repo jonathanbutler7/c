@@ -1,3 +1,4 @@
+// define how to build. use gcc command, specificy file you want to build and executable
 {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
@@ -10,13 +11,14 @@
       "args": [
         "-g",
         "-o",
+        // executable below
         "helloworld",
         "helloworld.c"
       ],
       "group": {
         "kind": "build",
-        "isDefault": true,
-      },
+        "isDefault": true
+      }
     }
   ]
 }

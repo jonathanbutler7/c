@@ -1,5 +1,19 @@
+// define the compiler
 {
   "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "../helloworld.c",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+
     {
       "name": "(lldb) Launch",
       "type": "cppdbg",
@@ -14,10 +28,10 @@
     },
     {
       "type": "pwa-chrome",
-      "name": "http://debug.javascript.debugByLinkOptions",
+      // "name": "http://debug.javascript.debugByLinkOptions",
       "request": "launch",
       "text": "-enable-pretty-printing",
-      "url": "http://debug.javascript.debugByLinkOptions"
+      // "url": "http://debug.javascript.debugByLinkOptions"
     }
   ]
 }
