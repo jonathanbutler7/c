@@ -28,7 +28,7 @@
     },
     {
       "type": "pwa-chrome",
-      // "name": "http://debug.javascript.debugByLinkOptions",
+      "name": "http://debug.javascript.debugByLinkOptions",
       "request": "launch",
       "text": "-enable-pretty-printing",
       // "url": "http://debug.javascript.debugByLinkOptions"
