@@ -1,4 +1,5 @@
 #include <stdio.h>
+// stdio means standard input/output
 
 int main()
 {
