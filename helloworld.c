@@ -1,5 +1,6 @@
 #include <stdio.h>
 // stdio means standard input/output
+// #include "stdio.h" would mean it will look first in the current directorhy for a user defined lib
 
 int main()
 {
