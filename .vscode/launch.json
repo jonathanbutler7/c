@@ -7,7 +7,7 @@
       "request": "launch",
       "program": "../helloworld.c",
       "args": [],
-      "stopAtEntry": false,
+      "stopAtEntry": true,
       "cwd": "${fileDirname}",
       "environment": [],
       "externalConsole": false,
