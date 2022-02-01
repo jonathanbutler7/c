@@ -6,6 +6,7 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "../helloworld.c",
+      // should this be "program": "../helloworld.exe",?>
       "args": [],
       "stopAtEntry": true,
       "cwd": "${fileDirname}",
@@ -24,13 +25,13 @@
       "cwd": "${fileDirname}",
       "environment": [],
       "externalConsole": false,
-      "MIMode": "lldb",
+      "MIMode": "lldb"
     },
     {
       "type": "pwa-chrome",
       "name": "http://debug.javascript.debugByLinkOptions",
       "request": "launch",
-      "text": "-enable-pretty-printing",
+      "text": "-enable-pretty-printing"
       // "url": "http://debug.javascript.debugByLinkOptions"
     }
   ]

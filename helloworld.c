@@ -9,12 +9,12 @@ int main()
   char str[100];
   int i;
 
-  // printf("Enter a value:");
+  printf("Enter a value:");
 
-  // scanf("%d", &i);
+  scanf("%d", &i);
 
-  // printf("\nYou  entered: %d\n", i);
-  printf("Hello world");
+  printf("\nYou entered: %d\n", i);
+  // printf("Hello world");
   return 0;
 }
 // ctrl + opt + n will compile and give terminal with one command using Code Runner
