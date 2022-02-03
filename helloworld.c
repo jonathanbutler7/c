@@ -8,10 +8,11 @@ int main()
 {
   char str[100];
   int i;
+  printf("Enter a letter then a number:");
 
   scanf("%s %d", str, &i);
 
-  printf("\nYou entered: %s %d\n", str, i);
+  printf("\nYou entered: letter %s, and then number %d\n", str, i);
 
   return 0;
   // double _x;

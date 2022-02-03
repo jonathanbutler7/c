@@ -16,6 +16,7 @@ Date:
 // in the line above, only z is initialized.
 
 #include <stdio.h>
+#include <stdbool.h> // #include <stbool.h> to have standard true/false keywords as a data type
 
 int main()
 {
@@ -23,5 +24,11 @@ int main()
 
   jason = 8;
 
+  float a_number = 23.222;
+  double a_larger_number = 55.55555555e+11;
+
+  _Bool boolVariable = 1;
+
+  bool something = false;
   return 0;
 }
