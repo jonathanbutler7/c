@@ -5,8 +5,8 @@
       "name": "(lldb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "../helloworld.c",
-      // should this be "program": "../helloworld.exe",?>
+      // "program": "../helloworld.c",
+      "program": "../notes/section-5/format-specifiers.c",
       "args": [],
       "stopAtEntry": true,
       "cwd": "${fileDirname}",

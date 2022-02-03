@@ -48,7 +48,7 @@ int main()
 
   _Bool isMale = (myGender == anotherGender);
   
-  printf(anotherGender);
+  printf("anotherGender");
 
   return 0;
 };
