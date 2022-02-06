@@ -6,7 +6,7 @@ enum primaryColor
 };
 
 enum primaryColor myColor, gregColor;
-myColor = red;   // this is good
+myColor = red; // this is good
 // myColor = green; // this is bad
 
 enum direction
@@ -47,7 +47,7 @@ int main()
   enum gender anotherGender = female;
 
   _Bool isMale = (myGender == anotherGender);
-  
+
   printf("anotherGender");
 
   return 0;
