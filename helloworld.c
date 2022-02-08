@@ -14,9 +14,9 @@
 
 // printf("\nYou entered: letter %s, and then number %d\n", str, i);
 
-//   return 0;
-// //   // double _x;
-// //   // scanf("%lf", &_x);
+// return 0;
+// double _x;
+// scanf("%lf", &_x);
 // }
 
 int main()
