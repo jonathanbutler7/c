@@ -26,15 +26,16 @@ int main()
   // print out the minutes and then its equivalent in years and days
   // store minutes (int), minutes in year, years, days
 
-  int minutes;
+  long int minutesEntered;
   printf("Enter minutes: ");
-  scanf("%d", &minutes);
-  printf("\nMinutes entered: %d\n", minutes);
+  scanf("%ld", &minutesEntered);
+  printf("\nMinutes entered: %ld\n", minutesEntered);
 
-  float hours = minutes / 60.0;
+  float hours = minutesEntered / 60.0;
   float days = hours / 24.0;
   float years = days / 365.0;
+  printf("\nMinutes is approximately %d days", (int)days);
   printf("\nYears entered: %lf\n", years);
-  
+
   return 0;
 }
