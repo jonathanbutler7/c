@@ -30,7 +30,8 @@ int main()
   // }
   // else
   //   sign = 1;
-  number < 0 ? sign = -1 : number == 0 ? sign = 0 : 1;
+  number < 0 ? sign = -1 : number == 0 ? sign = 0
+                                       : 1;
   printf("Sign = %i\n", sign);
   return 0;
 }
