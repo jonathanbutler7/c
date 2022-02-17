@@ -22,6 +22,7 @@
 //       printf("You guessed %d, but that's too high.\nYou have %d tries left\n", guess, numberOfTries);
 //     }
 //   } while (guess != answer && numberOfTries > 0);
+//
 //   if (guess == answer)
 //   {
 //     printf("Final guess: %d\nActual number:%d\nYou guessed it!\n", guess, answer);
