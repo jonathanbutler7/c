@@ -18,10 +18,11 @@ int main()
       {0, 3, 4},
   };
   int partiallyInitializedMatrix[4][3] = {
-      {
-          [0][0] = 1,
-          [1][1] = 5,
-          [2][2] = 9,
-      }};
+      [0][0] = 1,
+      [1][1] = 5,
+      [2][2] = 9,
+  };
+  
+  printf("%d", partiallyInitializedMatrix);
   return 0;
 }
