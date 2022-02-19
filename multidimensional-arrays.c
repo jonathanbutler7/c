@@ -8,5 +8,20 @@ int main()
       {15, 25, 35, 45},
       {47, 48, 49, 50},
   };
+
+  // only need to initialize some values
+  // uninitialized values are set to 0
+  int matrix[4][5] = {
+      {0, 3, 4},
+      {0, 3, 4},
+      {0, 3, 4},
+      {0, 3, 4},
+  };
+  int partiallyInitializedMatrix[4][3] = {
+      {
+          [0][0] = 1,
+          [1][1] = 5,
+          [2][2] = 9,
+      }};
   return 0;
 }
