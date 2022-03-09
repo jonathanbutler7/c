@@ -14,24 +14,31 @@ int main()
 
   float total, subtotal;
   int year, month;
+
+  printf("YEAR\t\t\tRAINFALL  (inches)\n");
+
   for (year = 0, total = 0; year < YEARS; year++)
   {
     for (month = 0, subtotal = 0; month < MONTHS; month++)
     {
       subtotal += rain[year][month];
     }
-    printf("%5d \t%15.1f\n", 2010 + year, subtotal);
+    printf("%5d\t%15.1f\n", 2010 + year, subtotal);
     total += subtotal;
   }
-  // for (int year = 0, total = 0; year < YEARS; ++year)
-  // {
-  //   printf("\n\n%d total: %d\n", 2010 + year, total);
-  //   total = 0;
-  //   for (int month = 0; month < MONTHS; ++month)
-  //   {
-  //     total += yearlyRainfall[year][month];
-  //     printf("%d ", total);
-  //   }
-  // }
+  printf("\nMonthly Averages:\n");
+  printf("Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec\n");
+
+  for (month = 0; month < MONTHS; month++)
+  {
+    for (year = 0, subtotal = 0; year < YEARS; year++)
+    {
+      subtotal += rain[year][month];
+    }
+    printf("%4.1f ", subtotal / YEARS);
+  }
+
+  printf("\n");
+
   return 0;
 }
