@@ -1,23 +1,18 @@
 #include <stdio.h>
 
-int gcd(int a, int b)
-{
-  // Everything divides 0
-  if (a == 0)
-    return b;
-  if (b == 0)
-    return a;
+int gcd(int u, int v);
+float squareRoot(float x);
 
-  // base case
-  if (a == b)
-    return a;
+float squareRoot(float x) {
+  const float epsilon = .00001;
+  float guess = 1.0;
+  
+  if (x < 0) {
+    return -1.0
+  }
 
-  // a is greater
-  if (a > b)
-    return gcd(a - b, b);
-  return gcd(a, b - a);
+  
 }
-
 int absoluteValue(float a)
 {
   if (a < 0)
@@ -25,11 +20,22 @@ int absoluteValue(float a)
   return a;
 }
 
+int gcd(int u, int v)
+{
+  int temp;
+  while (v != 0)
+  {
+    temp = u % v;
+    u = v;
+    v = temp;
+  }
+  return u;
+}
+
 // write a function that returns the square root of a number
 
 int main()
 {
-  int result = absoluteValue(-5);
-  printf("%d", result);
+  printf("%d", gcd(10, 20));
   return 0;
 }
